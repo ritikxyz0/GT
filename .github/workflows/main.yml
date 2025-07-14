@@ -29,5 +29,5 @@ jobs:
         TOKEN: ${{ secrets.BOT_TOKEN }}
       run: |
         echo "TOKEN = '${TOKEN}'" > token.py
-        python main.py
+        python token.py
         
