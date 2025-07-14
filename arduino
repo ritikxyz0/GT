@@ -1,0 +1,7 @@
+your-repo/
+│
+├── token.py
+├── requirements.txt
+└── .github/
+    └── workflows/
+        └── run-bot.yml
