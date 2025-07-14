@@ -28,5 +28,5 @@ jobs:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
       run: |
         echo "API_TOKEN = '${{ secrets.BOT_TOKEN }}'" > token.py
-        python ritik.py
+        python token.py
         
